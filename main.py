@@ -3,8 +3,8 @@ import os
 
 def check_stock():
     print("Memulai pengecekan harga...")
-    # Kita tes dengan GOTO-W
-    ticker = "GOTO-W.JK"
+    # Kita tes dengan ISAP-W
+    ticker = "ISAP-W.JK"
     stock = yf.Ticker(ticker)
     
     try:
